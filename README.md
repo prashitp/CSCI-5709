@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Tutorial 3
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* *Date Created*: 04 FEB 2022
+* *Last Modification Date*: 04 FEB 2022
+* *Deployment URL*: <https://tutorial3-csci-5709.herokuapp.com/>
+* *Git URL*: <https://git.cs.dal.ca/pppatel/prashit-patel-csci5709>
 
-## Available Scripts
+## Authors
 
-In the project directory, you can run:
+* [Prashit Prakashbhai Patel](pr718986@dal.ca)
 
-### `npm start`
+## Getting Started
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To have a local copy of this tutorial up and running on your local machine, you will first need to install the following software / libraries / plug-ins
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Node.js
+* Visual Studio Code
 
-### `npm test`
+See the following section for detailed step-by-step instructions on how to install this software / libraries / plug-ins
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installing
 
-### `npm run build`
+* Download the latest copy of node from https://nodejs.org/en/ and install it.
+* Open the terminal on your machine and navigate using 'cd' command to local directory of this project.
+* Run 'npm install' for installing dependencies.
+* Build the app using 'npm run build'.
+* Run the app using 'npm start'.
+* Open browser and run http://localhost:8080/ to run the app in the browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+More information about deploying react apps can be found here: https://create-react-app.dev/docs/deployment/ 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Built With
 
-### `npm run eject`
+* [ReactJs](https://reactjs.org/) - The web framework used
+* [Visual Studio Code](https://code.visualstudio.com/) - IDE used for development
+* [Heroku](https://heroku.com/) - Used to deploy the app
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Acknowledgments
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Alphabets Regex - [Stack Overflow](https://stackoverflow.com/questions/23476532/check-if-string-contains-only-letters-in-javascript)
+* Email Regex - [w3resource](https://www.w3resource.com/javascript/form/email-validation.php)
+* Password Regex - [Stack Overflow](https://stackoverflow.com/questions/12090077/javascript-regular-expression-password-validation-having-special-characters)
