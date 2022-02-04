@@ -7,7 +7,7 @@
 
 ## Authors
 
-* [Prashit Prakashbhai Patel](pr718986@dal.ca)
+* [Prashit Prakashbhai Patel - B00896717](pr718986@dal.ca)
 
 ## Getting Started
 ### Prerequisites
