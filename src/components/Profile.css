@@ -1,0 +1,11 @@
+.profileContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-label {
+  margin: 1%;
+  font-size: large;
+}
