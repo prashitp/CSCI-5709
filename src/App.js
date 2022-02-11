@@ -1,67 +1,49 @@
+import Layout, { Footer, Header } from "antd/lib/layout/layout";
 import "./App.css";
-import { React, useState } from "react";
-import Registration from "./components/Registration";
-import Profile from "./components/Profile";
+import Navigation from "./components/Navigation";
+import logo from "./assets/images/logo.png";
+import { Image } from "antd";
+import PickupOptions from "./components/PickupOptions";
+import { Route, Routes } from "react-router-dom";
+import SchedulePickup from "./components/SchedulePickup";
+import ScheduleConfirmation from "./components/ScheduleConfirmation";
+import FooterDetails from "./components/FooterDetails";
 
 function App() {
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [rePassword, setRePassword] = useState("");
-  const [submitted, setSubmitted] = useState(false);
-
-  const [valid, setValid] = useState({
-    firstName: false,
-    lastName: false,
-    email: false,
-    password: false,
-    matchPassword: false
-  });
-
-  const submitForm = () => {
-    if (valid.firstName && valid.lastName && valid.email && valid.password && valid.matchPassword) {
-      setSubmitted(true);
-    } else {
-      alert("Please enter valid details!");
-    }
-  };
-
-  const resetForm = () => {
-    setFirstName("");
-    setLastName("");
-    setEmail("");
-    setPassword("");
-    setRePassword("");
-    setValid({
-      firstName: false,
-      lastName: false,
-      email: false,
-      password: false,
-      matchPassword: false
-    });
-    setSubmitted(false)
-  };
-
-  if (!submitted) {
-    return <Registration
-      firstName={firstName}
-      setFirstName={setFirstName}
-      lastName={lastName}
-      setLastName={setLastName}
-      email={email}
-      setEmail={setEmail}
-      password={password}
-      setPassword={setPassword}
-      rePassword={rePassword}
-      setRePassword={setRePassword}
-      submitForm={submitForm}
-      valid={valid}
-      setValid={setValid}
-    />;
-  } else {
-    return <Profile firstName={firstName} lastName={lastName} email={email} resetForm={resetForm}/>;
-  }
+  return (
+    <div className="container">
+      <Layout>
+        <Header
+          style={{
+            zIndex: 1,
+            width: "100%",
+            background: "#fff",
+          }}
+        >
+          <div className="logo">
+            <Image
+              width="190px"
+              height="50px"
+              src={logo}
+            />
+          </div>
+          <Navigation />
+        </Header>
+        <Routes>
+          <Route path="/" element={<PickupOptions />}/>
+          <Route path="/schedule" element={<SchedulePickup />}/>
+          <Route path="/confirmation" element={<ScheduleConfirmation />}/>
+        </Routes>
+        <Footer style={{
+            zIndex: 1,
+            width: "100%",
+            background: "#fff",
+          }}>
+          <FooterDetails />
+        </Footer>
+      </Layout>
+    </div>
+  );
 }
 
 export default App;
