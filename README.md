@@ -76,10 +76,9 @@ This assignment is deployed on Heroku server. Follow below steps for deployment:
 5. [Button](https://ant.design/components/button/)
 6. [Input](https://ant.design/components/input/)
 7. [message](https://ant.design/components/message/)
-8. [Icons](https://ant.design/components/icon/)
-9. [Box Shadow](https://getcssscan.com/css-box-shadow-examples)
-10. [Avatar](https://ant.design/components/avatar/)
-11. [List](https://ant.design/components/list/)
+8. [Box Shadow](https://getcssscan.com/css-box-shadow-examples)
+9. [Avatar](https://ant.design/components/avatar/)
+10. [List](https://ant.design/components/list/)
 ### File Name - Profile.js
 *Lines 34-35*
 
