@@ -3,11 +3,12 @@
 * *Date Created*: 8 MAR 2022
 * *Last Modification Date*: 8 MAR 2022
 * *Deployment URL*: <https://tutorial5-csci5709.herokuapp.com/>
-    - API Endpoints:
+    ### API Endpoints:
     * GET users - Type: GET, URL: <https://tutorial5-csci5709.herokuapp.com/users>
     * PUT user - Type: PUT, URL: <https://tutorial5-csci5709.herokuapp.com/update/:id>
     * POST user - Type: POST, URL: <https://tutorial5-csci5709.herokuapp.com/add>
     * GET user - Type: GET, URL: <https://tutorial5-csci5709.herokuapp.com/user/:id>
+
 * *Git URL*: <https://git.cs.dal.ca/pppatel/prashit-patel-csci5709/-/tree/tutorial5> 
 
 ## Authors
