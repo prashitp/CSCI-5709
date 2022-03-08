@@ -42,7 +42,7 @@ To run this assignment on local follow the below steps:
 * Run 'git checkout tutorial5' to change branch.
 * Run 'npm install' for installing dependencies.
 * Run the app using 'npm start'.
-* Open postman and start using the endpoints mentioned above.
+* Open postman and start using the endpoints mentioned above on http://localhost:8080/.
 
 ## Deployment
 
